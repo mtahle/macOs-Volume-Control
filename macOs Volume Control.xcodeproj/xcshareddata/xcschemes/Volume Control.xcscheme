@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65996C54267EA86A0080A9A5"
-               BuildableName = "Volume Control.app"
-               BlueprintName = "Volume Control"
-               ReferencedContainer = "container:Volume Control.xcodeproj">
+               BuildableName = "macOs Volume Control.app"
+               BlueprintName = "macOs Volume Control"
+               ReferencedContainer = "container:macOs Volume Control.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65996C54267EA86A0080A9A5"
-            BuildableName = "Volume Control.app"
-            BlueprintName = "Volume Control"
-            ReferencedContainer = "container:Volume Control.xcodeproj">
+            BuildableName = "macOs Volume Control.app"
+            BlueprintName = "macOs Volume Control"
+            ReferencedContainer = "container:macOs Volume Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65996C54267EA86A0080A9A5"
-            BuildableName = "Volume Control.app"
-            BlueprintName = "Volume Control"
-            ReferencedContainer = "container:Volume Control.xcodeproj">
+            BuildableName = "macOs Volume Control.app"
+            BlueprintName = "macOs Volume Control"
+            ReferencedContainer = "container:macOs Volume Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

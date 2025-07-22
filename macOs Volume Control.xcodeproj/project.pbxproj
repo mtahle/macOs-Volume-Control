@@ -45,7 +45,7 @@
 		65220C76267F49D4007BE316 /* sign_update.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = sign_update.rb; sourceTree = "<group>"; };
 		654864A627480DCC00F78F99 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		65533216267F5D86004231D6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		65996C55267EA86A0080A9A5 /* Volume Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volume Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65996C55267EA86A0080A9A5 /* macOs Volume Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOs Volume Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65996CDF267EAB660080A9A5 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
 		65996CE0267EAB660080A9A5 /* introButtons-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introButtons-next.png"; sourceTree = "<group>"; };
 		65996CE1267EAB660080A9A5 /* statusbar-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusbar-screenshot.png"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		65996C56267EA86A0080A9A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65996C55267EA86A0080A9A5 /* Volume Control.app */,
+				65996C55267EA86A0080A9A5 /* macOs Volume Control.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -325,9 +325,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65996C54267EA86A0080A9A5 /* Volume Control */ = {
+		65996C54267EA86A0080A9A5 /* macOs Volume Control */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65996C66267EA86B0080A9A5 /* Build configuration list for PBXNativeTarget "Volume Control" */;
+			buildConfigurationList = 65996C66267EA86B0080A9A5 /* Build configuration list for PBXNativeTarget "macOs Volume Control" */;
 			buildPhases = (
 				65996C51267EA86A0080A9A5 /* Sources */,
 				65996C52267EA86A0080A9A5 /* Frameworks */,
@@ -338,9 +338,9 @@
 			);
 			dependencies = (
 			);
-			name = "Volume Control";
+			name = "macOs Volume Control";
 			productName = VolumeControl;
-			productReference = 65996C55267EA86A0080A9A5 /* Volume Control.app */;
+			productReference = 65996C55267EA86A0080A9A5 /* macOs Volume Control.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -357,7 +357,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "Volume Control" */;
+			buildConfigurationList = 65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "macOs Volume Control" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -370,7 +370,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65996C54267EA86A0080A9A5 /* Volume Control */,
+				65996C54267EA86A0080A9A5 /* macOs Volume Control */,
 			);
 		};
 /* End PBXProject section */
@@ -531,7 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 9V3X7C8VCK;
+				DEVELOPMENT_TEAM = 7M4FMHV48Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,7 +544,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.alberti42.VolumeControl;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mtahle.VolumeControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -560,7 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 9V3X7C8VCK;
+				DEVELOPMENT_TEAM = 7M4FMHV48Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -573,7 +573,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.alberti42.VolumeControl;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mtahle.VolumeControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -582,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "Volume Control" */ = {
+		65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "macOs Volume Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65996C64267EA86B0080A9A5 /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65996C66267EA86B0080A9A5 /* Build configuration list for PBXNativeTarget "Volume Control" */ = {
+		65996C66267EA86B0080A9A5 /* Build configuration list for PBXNativeTarget "macOs Volume Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65996C67267EA86B0080A9A5 /* Debug */,
