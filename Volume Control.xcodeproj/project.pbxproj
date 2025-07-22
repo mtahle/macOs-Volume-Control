@@ -357,7 +357,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "macOs Volume Control" */;
+			buildConfigurationList = 65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "Volume Control" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -582,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "macOs Volume Control" */ = {
+		65996C50267EA86A0080A9A5 /* Build configuration list for PBXProject "Volume Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65996C64267EA86B0080A9A5 /* Debug */,
