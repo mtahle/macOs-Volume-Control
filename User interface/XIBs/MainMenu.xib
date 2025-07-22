@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23504" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,7 +19,6 @@
                 <outlet property="dopplerPerc" destination="f3g-HZ-QsT" id="TYQ-Ts-C7t"/>
                 <outlet property="iTunesBtn" destination="i0t-Ei-94H" id="b2x-eC-ShE"/>
                 <outlet property="iTunesPerc" destination="Gbm-9b-kdp" id="lRa-C2-Ba4"/>
-                <outlet property="sparkle_updater" destination="4" id="Zh2-S0-PPi"/>
                 <outlet property="spotifyBtn" destination="hrb-gt-hEq" id="9Cf-nW-Vli"/>
                 <outlet property="spotifyPerc" destination="q1C-RX-nra" id="cJQ-q7-Hwo"/>
                 <outlet property="statusMenu" destination="5" id="34"/>
@@ -28,7 +27,6 @@
                 <outlet property="volumeIncrementsSlider" destination="99" id="196"/>
             </connections>
         </customObject>
-        <customObject id="4" userLabel="Sparkle updater" customClass="SPUStandardUpdaterController"/>
         <menu id="5" userLabel="Status Menu">
             <items>
                 <menuItem title="Enabled" state="on" tag="1" id="6" userLabel="Enabled">
@@ -89,18 +87,6 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="20"/>
-                <menuItem title="Check for Updates..." id="11" userLabel="Check for Updates...">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="checkForUpdates:" target="4" id="Hjs-yG-RM5"/>
-                    </connections>
-                </menuItem>
-                <menuItem title="Automatic weekly updates" state="on" tag="8" id="8" userLabel="Automatic weekly updates">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="toggleAutomaticUpdates:" target="3" id="39"/>
-                    </connections>
-                </menuItem>
                 <menuItem title="About" id="15" userLabel="About">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>

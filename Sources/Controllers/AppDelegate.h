@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <QuartzCore/CoreAnimation.h>
 
-#import <Sparkle/Sparkle.h>
+//#import <Sparkle/Sparkle.h>
 
 #import "iTunes.h"
 // #import "Music.h"
@@ -80,7 +80,7 @@
 @property (nonatomic, assign) IBOutlet NSTextField* systemPerc;
 @property (nonatomic, assign) IBOutlet NSTextField* dopplerPerc;
 
-@property (assign, nonatomic) IBOutlet SPUStandardUpdaterController* sparkle_updater;
+//@property (assign, nonatomic) IBOutlet SPUStandardUpdaterController* sparkle_updater;
 
 @property (nonatomic, readonly, strong) NSStatusItem* statusBar;
 

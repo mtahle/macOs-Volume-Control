@@ -227,7 +227,7 @@ CGEventRef event_tap_callback(CGEventTapProxy proxy, CGEventType type, CGEventRe
 @synthesize systemPerc = _systemPerc;
 @synthesize dopplerPerc = _dopplerPerc;
 
-@synthesize sparkle_updater = _sparkle_updater;
+//@synthesize sparkle_updater = _sparkle_updater;
 
 @synthesize statusMenu = _statusMenu;
 
@@ -609,9 +609,9 @@ static NSTimeInterval updateSystemVolumeInterval=0.1f;
     //NSString * operatingSystemVersionString = [[NSProcessInfo processInfo] operatingSystemVersionString];
     NSString* releasesCast = [infoDict objectForKey:@"ReleasesCast"];
     
-    SPUUpdater* updater = [[self sparkle_updater] updater];
-    [updater setFeedURL:[NSURL URLWithString:releasesCast]];
-    [updater setUpdateCheckInterval:60*60*24*7]; // look for new updates every 7 days
+//    SPUUpdater* updater = [[self sparkle_updater] updater];
+//    [updater setFeedURL:[NSURL URLWithString:releasesCast]];
+//    [updater setUpdateCheckInterval:60*60*24*7]; // look for new updates every 7 days
     
     //[[SUUpdater sharedUpdater] setFeedURL:[NSURL URLWithString:[NSString stringWithFormat: @"http://quantum-technologies.iap.uni-bonn.de/alberti/iTunesVolumeControl/VolumeControlCast.xml.php?version=%@&osxversion=%@",version,[operatingSystemVersionString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]]]];
     //[[SUUpdater sharedUpdater] setUpdateCheckInterval:60*60*24*7]; // look for new updates every 7 days
@@ -800,7 +800,7 @@ static NSTimeInterval updateSystemVolumeInterval=0.1f;
     
     _AutomaticUpdates=enabled;
     
-    [[SUUpdater sharedUpdater] setAutomaticallyChecksForUpdates:enabled];
+//    [[SUUpdater sharedUpdater] setAutomaticallyChecksForUpdates:enabled];
 }
 
 - (IBAction)togglePlaySoundFeedback:(id)sender
